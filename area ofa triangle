@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    // variable declaration
+    int base,height,hypotenuse,area,perimeter;
+    
+    //variable initialization
+    base=10;
+    height=7;
+    hypotenuse=12;
+    
+    //logic
+    area=0.5*base*height;
+    perimeter=base+height+hypotenuse;
+    cout<<"area of a triangle is = "<<area<<endl;
+    cout<<"perimeter of a triangle is = "<<perimeter<<endl;
+    return 0;
+}
